@@ -112,10 +112,10 @@ def venom():
 
     y = '''
 \033[1;97m╔═════════════════════════════════════════════════════════════╗
-\033[1;97m║\033[1;93m* \033[1;97mN4M3    \033[1;91m: \033[1;96mF33LIINGL3SS \033[1;97m                                    ║
-\033[1;97m║\033[1;93m* \033[1;97mADMIN  \033[1;91m : \033[1;96mF33LIINGL3SS  \033[1;97m                                   ║
-\033[1;97m║\033[1;93m* \033[1;97m0WN3R   \033[1;91m: \033[1;96mSONU R9JPUT  \033[1;97m                                    ║
-\033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;96mhttps://www.facebook.com/100008025300891\033[1;97m         ║
+\033[1;97m║\033[1;93m* \033[1;97mN4M3    \033[1;91m: \033[1;96mF9RM9N \033[1;97m                                    ║
+\033[1;97m║\033[1;93m* \033[1;97mN1CKN9M3  \033[1;91m : \033[1;96mN9RUT0  \033[1;97m                                   ║
+\033[1;97m║\033[1;93m* \033[1;97m0WN3R   \033[1;91m: \033[1;96mF9RMAN S1DDUQU3  \033[1;97m                                    ║
+\033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;96mhttps://www.facebook.com/profile.php?id=61565520028828\033[1;97m         ║
 \033[1;97m╚═════════════════════════════════════════════════════════════╝
 
 '''
@@ -151,8 +151,8 @@ def message_on_messenger(message):
                 e =datetime.now()
                 print("\033[1;35m", end = "")
                 print("--> Convo Or Inbox I'd Link  :--", thread_id)
-                print (e.strftime("--> F33LIINGL3SS H3R3 :D | | Date :: %d-%m-%Y  TIME :: %I:%M:%S %p"))
-                print("--> Message Successfully Sent By Sonu Rajput :D ::-->> ", message, "\n")
+                print (e.strftime("--> F9RMAN H3R3 :D | | Date :: %d-%m-%Y  TIME :: %I:%M:%S %p"))
+                print("--> Message Successfully Sent By N9RUT0 D0N :D ::-->> ", message, "\n")
                 time.sleep(timm)
             else:
                 print('\033[1;32m[x] Message Block ' + tt, '\n[×] Token Error\n')
@@ -173,12 +173,12 @@ def get_messages():
 
 if int:
     print('''\033[1;36m---------------------------------------------------------------------\n''')
-    print('''\033[1;35m-=[ Facebook Tool Create by Feelingless ]=-''')
-    print('''\033[1;33m-=[ Contact Us :: https://www.facebook.com/100008025300891]=-\n''')
+    print('''\033[1;35m-=[ Facebook Tool Create by N9RUT0 1NX1D3 ]=-''')
+    print('''\033[1;33m-=[ Contact Us :: https://www.facebook.com/profile.php?id=61565520028828 ]=-\n''')
     print('''\033[1;36m---------------------------------------------------------------------\n''')
     i = datetime.now()
     print(i.strftime("\033[1;32m[#] Start Time ==> %Y-%m-%d %I:%M:%S %p "))
-    print('''\033[1;32m[#] _ Tool Fucker == > [ Feelingless Insiide ]\n''')
+    print('''\033[1;32m[#] _ Tool Fucker == > [ Naruto Insiide ]\n''')
     print("\033[1;36;40m", end = "")
     mo=str(input("\033[1;36m[+] Mobile Number :: "))
     token = input("[+] Input Token File Name :: ")
