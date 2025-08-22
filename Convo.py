@@ -1,8 +1,82 @@
+W = '\033[97;1m' 
+R = '\033[97;1m' 
+G = '\033[97;1m' 
+Y = '\033[97;1m' 
+B = '\033[97;1m'
+P = '\033[97;1m'
+C = '\033[97;1m'
+N = '\x1b[0m'
+
+
+import os
+try:
+	import requests
+except ImportError:
+	os.system("pip install requests")
+
+try:
+	import concurrent.futures
+except ImportError:
+	os.system("pip install futures")
+
+import os
+import sys
+import time
+import requests
+import random
+import platform
+import base64
+import subprocess
+from concurrent.futures import ThreadPoolExecutor
 from platform import system
 import sys
 import os
 import datetime   
 from time import sleep
+
+def logo():
+	print ("""
+   
+ ───────────────────────────────────────────────────────×
+  ───────────────────────────────────────────────────────×
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Mr Wasi Qureshi\x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Version :5\x1b[0m\x1b[1;97m] \033[1;37m 
+ ───────────────────────────────────────────────────────×
+ """)
+def logo2():
+	#Yahan apna logo paste krna hw
+	print ("""
+   ____                       __    _ 
+  / __ \__  __________  _____/ /_  (_)
+ / / / / / / / ___/ _ \/ ___/ __ \/ / 
+/ /_/ / /_/ / /  /  __(__  ) / / / / •Mr Qureshi
+\___\_\__,_/_/   \___/____/_/ /_/_/ √Master Mind🥺❤️                                                                            
+ ───────────────────────────────────────────────────────×
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Mr Wasi Qureshi\x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Version :6\x1b[0m\x1b[1;97m] \033[1;37m 
+ ───────────────────────────────────────────────────────×
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Author   : Mr-Qureshi \x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : www.gitclone//github.com/Mr-Qureshi-xd \x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Facebook : www.facebook./MrQureshi-xd \x1b[0m\x1b[1;97m]
+───────────────────────────────────────────────────────× 
+ """)
+
+def runtxt(z):
+    for e in z + "\n":
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.03)
+
+os.system('termux-setup-storage')
+
+def helpnote():
+	print("%s [=>] FOLLOW ME ON  FB TU KNOW ABOUT UPDATES  :)"%(G))
+	#yahan nichy httsp sy hata kr apna github aproval link dalna
+	subprocess.check_output(["am", "start", "https://raw.githubusercontent.com/asrshx/Aproval/45a3cd11cf5f00525d2dfb8b00404684b813fde5/Approval.txt"])
+	#yahan apni facebook id link dalna
+	exit(" [=>] FACEBOOK :  https://www.facebook.com/MrQureshi.xd")
+	
+
 def testPY():
     if(sys.version_info[0] < 3):
         print ('\n\t [+] You have Python 2, Please Clear Data Termux And Reinstall Python ... \n')
